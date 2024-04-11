@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Noto+Serif&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(41, 55%, 66%);
+        font-family: sans-serif;
+        border : solid  #fff;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    font-size:1.2rem;
+    font-weight: bold;
+    border-bottom: solid  #ffffff;
+    align-items: center;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center; /* Ustala centrowanie tekstu wewnątrz kontenera */    
+    }
+
+
+ header   a:hover {
+        color: #D8BA7A; /* Zmiana koloru tekstu na czerwony po najechaniu kursorem */
+    }
+
+
+    h1:hover{
+        color: #d8ba7a;
+    }
+
+
+.photo1{
+    height:350px;
+    width: 500px;
+    border: 3px solid #fff;
+
+}
+.gallery-item.large-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+    
+    
+.black:hover{
+        color: #000000;
+    }
+
+
+
+
+.nav{
+    position: absolute;
+    margin-top: 1.6rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+section{
+}
+
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    text-align: center; /* Ustala centrowanie tekstu wewnątrz kontenera */
+}
+
+.container2{
+    height: 100vh;
+    display: grid;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.tekst1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.3); /* Przykładowy kolor tła */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    ;
+}
+
+.logo{
+    color: #fff;
+    font-size:1.5rem;
+    font-weight: bold;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    height: 480px;
+    width:350px;
+    background-color: #000000;
+    margin: 20px;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    object-fit:cover
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit:cover
+
+}
+
+
+
+footer{
+    width:100%;
+    background-color:#000000;   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    border-top:  solid 3px #fff;
+}
+
+
+h1{
+    display: grid;
+    color: #fff;
+    font-size: 1.6rem;
+    justify-content: center;
+    margin-top:20px;
+}
+
+
+p{
+    justify-content: center;
+    text-align: center;
+    margin:10px;
+    
+}
+
+.content{
+    display:block;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+}
+ul {
+    list-style: none; /* Usunięcie domyślnego stylu punktów */
+    padding: 0;
+    margin: 0;
+}
+
+/* Stylowanie linków wewnątrz listy */
+ul  a {
+    display: block; /* Ustawienie linków jako bloki, co spowoduje, że będą wyświetlane jeden pod drugim */
+    text-decoration: none; /* Opcjonalne: usunięcie domyślnego podkreślenia dla linków */
+}
+
+div.social-links svg{
+    height: 20px;
+    display: inline-block;
+    margin: 10px;
+    fill:rgba(255,255,255,0.7);
+}
+
+div.social-links svg{
+    height: 20px;
+    display: inline-block;
+    margin: 10px;
+    fill:rgba(255,255,255,0.7);
+    
+}
+
+
+div.social-links svg{
+    fill:#fff;
+    
+}
+
+
+div.social-links svg:hover{
+    fill: #D8BA7A;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
